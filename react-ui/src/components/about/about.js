@@ -24,7 +24,7 @@ class About extends React.Component {
               <button className="pageBtn"> Contact </button>
             </Link>
             <div className="dropdown">
-              <button className="pageBtn"> Catalog </button>
+              <button className="pageBtn"> Catalogs </button>
               <div className="dropdown-content">
                 <a href="https://www.companycasuals.com/totalscreendesign/start.jsp" rel="noopener noreferrer"
                   target="_blank"> Catalog 1</a>
@@ -43,7 +43,7 @@ class About extends React.Component {
           <p className="aboutP2">
             We pride ourselves in offering you the customer the best experience. From concept we work with you to design the best
             logo that will set you apart. We offer many great brands to choose from to find the right material for what you are
-            looking for. If we don&#39;t have it, we will find it! Our goal is for you to look the very best. 
+            looking for. If we don&#39;t have it, we will find it! Our goal is for you to look the very best.
           </p>
         </div>
         <div className="footy2">
