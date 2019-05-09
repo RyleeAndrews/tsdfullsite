@@ -1,7 +1,7 @@
 import superagent from 'superagent';
 import cookie from 'react-cookies';
 
-let API = `${__API_URL__}`;
+let API = process.env.API_URL;
 
 export const orderInitialize = () => dispatch => {
 

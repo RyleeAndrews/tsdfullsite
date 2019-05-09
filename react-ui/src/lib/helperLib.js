@@ -1,4 +1,5 @@
 'use strict';
+import superagent from 'superagent';
 
 export const photoToDataUrl = file => {
   return new Promise( (resolve,reject) => {
@@ -9,7 +10,6 @@ export const photoToDataUrl = file => {
   });
 };
 
-import superagent from 'superagent';
 
 export const activeProps = (config) => Object.keys(config).filter( key => config[key] );
 

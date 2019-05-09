@@ -1,4 +1,3 @@
-import './auth.scss';
 import React from 'react';
 import {connect} from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -6,6 +5,7 @@ import * as actions from './authactions.js';
 import * as profileactions from '../profile/profileactions.js';
 import AuthForm from './authform.js';
 import cookie from 'react-cookies';
+import './auth.scss';
 
 class AuthDashboard extends React.Component {
   constructor(props){
@@ -32,7 +32,7 @@ class AuthDashboard extends React.Component {
   logoutOf(){
     cookie.remove('auth', {path: '/'});
     this.props.authLogout();
-    location.reload();
+    window.location.reload();
   }
 
 

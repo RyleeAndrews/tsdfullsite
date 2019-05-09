@@ -1,8 +1,11 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 let reporter = store => next => action => {
 
     try {
         let result = next(action);
-        if ( __DEBUG__ ) { console.log("__STATE__", store.getState()); }
+        if ( process.env.__DEBUG__ ) { console.log("__STATE__", store.getState()); }
         return result;
     }
     catch(error) {

@@ -1,8 +1,12 @@
-
 'use strict';
 
 import superagent from 'superagent';
 import cookie from 'react-cookies';
+import dotenv from 'dotenv';
+dotenv.config();
+
+let __AUTH_URL__ =  process.env.AUTH_URL;
+let __API_URL__ = process.env.API_URL;
 
 export const authLogin = (user={}) => dispatch => {
 
