@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-tsdwebsite/react-ui/node_modules
+/react-ui/node_modules
 /.pnp
 .pnp.js
 
