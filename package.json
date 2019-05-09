@@ -1,0 +1,37 @@
+{
+  "name": "tsdwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "11.x"
+  },
+  "scripts": {
+    "start": "node server",
+    "build": "cd react-ui/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyleeAndrews/tsdfullsite.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "heroku",
+    "create-react-app",
+    "react"
+  ],
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/RyleeAndrews/tsdfullsite/issues"
+  },
+  "homepage": "https://github.com/RyleeAndrews/tsdfullsite#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

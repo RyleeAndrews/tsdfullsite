@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.451.0",
+    "bcrypt": "^3.0.6",
+    "bluebird": "^3.5.4",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "fs-extra": "^7.0.1",
+    "jest": "^24.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.6",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "node": "^12.1.0",
+    "nodemon": "^1.19.0",
+    "require-dir": "^1.2.0",
+    "superagent": "^5.0.5",
+    "uuid": "^3.3.2"
+  }
+}
