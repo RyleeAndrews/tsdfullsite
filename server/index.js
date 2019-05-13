@@ -5,5 +5,5 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();
 mongoose.Promise = require('bluebird');
-mongoose.connect('mongodb://RyleeAW:hhwwww1@ds131971.mlab.com:31971/totalscreen');
+mongoose.connect('mongodb://RyleeAW:hhwwww1@ds131971.mlab.com:31971/totalscreen', { useNewUrlParser: true } );
 require('./lib/server.js').start();
