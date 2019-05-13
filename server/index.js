@@ -5,5 +5,5 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();
 mongoose.Promise = require('bluebird');
-mongoose.connect(process.env.MONGODB_URI, { useMongoClient:true } );
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true } );
 require('./lib/server.js').start();
