@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/RyleeAndrews/tsdfullsite#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "node-gyp": "^4.0.0"
   }
 }
